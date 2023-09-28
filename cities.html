@@ -12,10 +12,181 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" 
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </head>
-
     <body>
-        <h1>Visit cities with BhavyaSree</h1>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+ 
+        <a class="navbar-brand" href="#">A Few cities</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="basic.html">Basic</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="advanced.html">Advanced</a>
+            </li>
+          </ul>
+        </div>
     
-      </body>
+    </nav>
+        <h1>Visit cities with BhavyaSree Kalava</h1>
+        <body>
+          <div class="container">
       
+              <div class="row">
+      
+                  <div class=" col-sm-2">K</div>
+      
+                  <div class=" col-sm-2">A</div>
+      
+                  <div class=" col-sm-2">L</div>
+      
+                  <div class=" col-sm-2">A</div>
+      
+                  <div class=" col-sm-2">V</div>
+      
+                  <div class=" col-sm-2">A</divD>
+      </div>
+      
+              <div class="row">
+      
+                  <div class=" col-md">Kolkata</div>
+      
+                  <div class=" col-md">Adilabad</div>
+      
+                  <div class=" col-md">Lucknow</div>
+      
+                  <div class=" col-md">Amaravathi</div>
+      
+                  <div class=" col-md">Vijayawda</div>
+      
+                  <div class=" col-md">Ananthapur</div>
+      
+      
+              </div>
+      
+          </div>
+      
+          <br>
+      
+          <p>Cities names will break because we are using a class of command <b>col-md</b> for cities which is having a breakpoint <b>768px</b> therefore it stacks vertically first
+      
+               where are <b>col-sm</b> is having breakpoint <b>576px</b> and is used for small screens and it breaks when sreen size is much smaller.</p>
+               <div class="image-container">
+                <img class="img-thumbnail" src="City1.jpg" alt="Image of vijaywada"  height="300px" width="350px">
+                <img class="img-thumbnail" src="City2.jpg"  alt="Image of Kolkata" height="300px" width="300px">
+                <img class="img-thumbnail" src="City3.jpg"  alt="Image of Amaravathi" height="300px" width="300px">
+                </div>
+              <br>
+              <div class="thumbnail-container">
+                <img src="City1.jpg" alt="Image of karachi" class="img-thumbnail" width="250px" height="250px">
+                <img src="City2.jpg" alt="Image of singapore" class="img-thumbnail" width="230px" height="250px">
+                <img src="City3.jpg" alt="Image of agra" class="img-thumbnail" width="250px" height="250px">
+              </div>
+              <br>
+<table class="table">
+  <caption>Table of Letters, Cities, Rivers, dand Trees</caption>
+  <thead>
+    <tr class="table-primary">
+      <th scope="col">Letters</th>
+      <th scope="col">Cities</th>
+      <th scope="col">Rivers</th>
+      <th scope="col">Trees</th>
+    </tr>
+    </thead>
+    <tbody>
+      <tr class="table-secondary">
+        <th scope="row">K</th>
+        <td>Kansas</td>
+        <td>Krishna</td>
+        <td>Kentucky Coffee Tree</td>
+      </tr>
+      <tr class="table-primary">
+        <th scope="row">A</th>
+        <td>Atlanta</td>
+        <td>Ahnapee River</td>
+        <td>Almond Tree</td>
+      </tr>
+      <tr class="table-success">
+        <th scope="row">L</th>
+        <td>London</td>
+        <td>Lamine River</td>
+        <td>Locust Tree</td>
+      </tr>
+      <tr class="table-light">
+        <th scope="row">A</th>
+        <td>Austin</td>
+        <td>Alafia River</td>
+        <td>Almond Tree</td>
+      </tr>
+      <tr class="table-warning">
+        <th scope="row">V</th>
+        <td>Venice</td>
+        <td>Vermilion River</td>
+        <td>Varnish Tree</td>
+      </tr>
+      <tr class="table-primary">
+        <th scope="row">A</th>
+        <td>Abilene</td>
+        <td>Amazon River</td>
+        <td>Aliso</td>
+      </tr>
+    </tbody>
+</table>
+<button class="btn" style="border: 2px solid black;">K</button>
+    <button class="btn" style="border: 2px solid black;">A</button>
+    <button class="btn" style="border: 2px solid black;">L</button>
+    <button class="btn" style="border: 2px solid black;">A</button>
+    <button class="btn" style="border: 2px solid black;">V</button>
+    <button class="btn" style="border: 2px solid black;">A</button>
+    <br><br>
+<div class="container">
+  <div class="btn-toolbar" role="toolbar" aria-label="Button groups">
+    <div class="btn-group" role="group" aria-label="Letters with images">
+      <button type="button" class="btn btn-success">K</button>
+      <button type="button" class="btn btn-success">A</button>
+      <button type="button" class="btn btn-success">L</button>
+      
+    </div>
+    <div class="btn-group" role="group" aria-label="Alert buttons">
+      <button type="button" class="btn btn-warning">A</button>
+      <button type="button" class="btn btn-warning">V</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Remaining letters">
+      <button type="button" class="btn btn-danger">A</button>
+    </div>
+  </div>
+</div>
+<br>
+<div class="dropdown-toggle">
+  <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="basic.html">Basic</a></li>
+    <li><a class="dropdown-item" href="advanced.html">Advanced</a></li>
+  </ul>
+</div><br>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail" class="form-label">Email Address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div><br>
+  <div class="form-group">
+    <label for="city" class="form-label">City</label>
+    <input type="text" class="form-control" id="city">
+  </div><br>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="newsletter">Sign up for newsletter?</label>
+  </div><br>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form><br>
+
+
+      </body>
       </html>
+      
